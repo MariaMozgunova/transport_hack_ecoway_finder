@@ -6,11 +6,8 @@
   "tasks": {
     "start": {
       "name": "start",
-      "command": "python main.py",
-      "runAtStart": true,
-      "restartOn": {
-        "files": ["main.py"]
-      }
+      "command": "source .venv/bin/activate && ./manage.py runserver",
+      "runAtStart": true
     },
     "install-dependencies": {
       "name": "Installing Dependencies",
