@@ -7,4 +7,4 @@ geographiclib==2.0
 geopy==2.4.0
 psycopg2==2.9.7
 pytz==2023.3.post1
-sqlparse==0.4.4git
+sqlparse==0.4.4
